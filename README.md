@@ -1,7 +1,7 @@
 codium
 ======
 An alternativ way to code your website.
-This is juste a concept so currently no software can compile this idea.
+This is just a concept so currently no software can compile this idea.
 
 A way to code more easily and with a good flexibility.
 
@@ -32,3 +32,36 @@ Another exemple:
     [ pub | src='img/pub.png'| href='pub.html' | alt='For Free Pub' /]
 
 A block can be a link, an image or BOTH!
+
+Different ways = more flexibility:
+
+    [ p | text='Lorem ipsum dolor sit iaculis neque mollis in.' /]
+or   
+     
+     [ p ] Lorem ipsum dolor sit iaculis neque mollis in. [/ p ]
+
+
+Oh! And you can forget about `<doctypte>` `<head>` `<body>` `<html>` 
+what you need to do is:
+
+    // head
+    [ head
+	    | charset='utf-8'
+	    | title='bonjour'
+	    | src='../css/main.css'
+    /]
+
+or if you want:
+
+    [ charset='utf-8' | title='bonjour'	| src='../css/main.css' /]
+
+
+
+
+
+
+
+
+    
+
+
