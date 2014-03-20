@@ -44,7 +44,6 @@ or
 Oh! And you can forget about `<doctypte>` `<head>` `<body>` `<html>` 
 what you need to do is:
 
-    // head
     [ head
 	    | charset='utf-8'
 	    | title='bonjour'
@@ -53,11 +52,32 @@ what you need to do is:
 
 or if you want:
 
+    // head
     [ charset='utf-8' | title='bonjour'	| src='../css/main.css' /]
 
+and in the bottom of your site:
 
+    //foot
+    [
+        | src='../js/plugins.js'
+        | src='../js/script.js'
+    /]
 
+Last exemple:
 
+    [ table | class='fancy' ]
+        [ table-row ]
+            [ table-col ]
+                01
+            [/ table-col ]
+            [ table-col | class='win']
+                02
+            [/ table-col ]
+            [ table-col ]
+                03
+            [/ table-col ]
+        [/ table-row ]
+    [/ table ]
 
 
 
