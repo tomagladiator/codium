@@ -83,6 +83,11 @@ Last exemple:
     [/ table ]
 
 
+Exemple: 
+
+[<img src="http://i.imgur.com/HyrzFM8.png">](http://i.imgur.com/HyrzFM8.png)
+
+
 And about the semantic?
 Well I suppose that each element can be define in an other file in jSon:
 
