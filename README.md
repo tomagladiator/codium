@@ -1,16 +1,16 @@
 codium
 ======
-An alternativ way to code your website.
+An alternativ way to code your HTML.
 A way to code more easily and with a good flexibility.
 
 This is just a concept so currently no software can compile this language.
 To be clear, in this concept we suppose that a browser is smart enough to understand this code. That's it that's all.
 
 
-
 Forget about `<p>` `<i>` `<a>` `<e>` `<b>` `<div>` `<article>` `<main>` `<header>` `<ul>` `<li>` ....
 
-Here, you can custom yours elements like you wish:
+
+Here, you can create customs elements like you wish:
 
     [ menu ]  
         [ menu-list ]  
