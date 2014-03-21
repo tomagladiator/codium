@@ -1,9 +1,12 @@
 codium
 ======
 An alternativ way to code your website.
-This is just a concept so currently no software can compile this idea.
-
 A way to code more easily and with a good flexibility.
+
+This is just a concept so currently no software can compile this language.
+To be clear, in this concept we suppose that a browser is smart enough to understand this code. That's it that's all.
+
+
 
 Forget about `<p>` `<i>` `<a>` `<e>` `<b>` `<div>` `<article>` `<main>` `<header>` `<ul>` `<li>` ....
 
@@ -79,6 +82,19 @@ Last exemple:
         [/ table-row ]
     [/ table ]
 
+
+And about the semantic?
+Well I suppose that each element can be define in an other file in jSon:
+
+    { 
+        "content": {
+            "role": "main",
+            "type": "list",
+            "rel": "me"
+        }
+    }
+
+Not sure about this part... need time to think about it
 
 
 
