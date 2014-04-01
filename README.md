@@ -32,6 +32,14 @@ Yeah you can pass some variable if you need.
 
 Another exemple:
 
+OldSchool:
+
+    <a href='pub.html' class='pub' >
+    	<img src='img/pub.png' alt='For Free Pub' />
+    </a>
+
+NewSchool:
+
     [ pub | src='img/pub.png'| href='pub.html' | alt='For Free Pub' /]
 
 A block can be a link, an image or BOTH!
@@ -43,6 +51,9 @@ or
      
      [ p ] Lorem ipsum dolor sit iaculis neque mollis in. [/ p ]
 
+or
+
+    [ p ] Lorem ipsum dolor sit iaculis neque mollis in. [/ ]
 
 Oh! And you can forget about `<doctypte>` `<head>` `<body>` `<html>` 
 what you need to do is:
